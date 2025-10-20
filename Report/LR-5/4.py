@@ -1,0 +1,5 @@
+a,b,c = map(int, input("Введите 3 числа через пробел: ").split())
+max_num = max(a, b, c)
+print(max_num)
+min_num = min(a, b, c)
+print(min_num)
